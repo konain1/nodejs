@@ -11,4 +11,5 @@ app.use((req,res,next)=>{
 app.get('/' , (req,res)=>{
     res.send('http method')
 })
+// server address
 app.listen(port)
